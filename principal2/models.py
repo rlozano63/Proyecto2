@@ -7,6 +7,6 @@ class usuario(models.Model):
 		direccion = models.CharField(max_length=30)
 		fecha = models.DateTimeField()
 
-		def__unicode__(self):
-			return self.nombre
+		#def__unicode__(self):
+			#return self.nombre
 		
