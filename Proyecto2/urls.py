@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.conf.urls import *
 from django.contrib import admin
+from principal2.views import lista_usuarios
 
+admin.autodiscover()
 urlpatterns = [
-	#url(r'^$','principal2.views.lista_usuarios'),
+	url(r'^$',lista_usuarios),
     url(r'^admin/', admin.site.urls),
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 ]
