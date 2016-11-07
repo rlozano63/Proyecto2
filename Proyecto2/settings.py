@@ -9,11 +9,13 @@ https://docs.djangoproject.com/en/1.10/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.10/ref/settings/
 """
-
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+#os.path.join(mi_template,'lista_usuarios'),
+os.path.join(BASE_DIR,'lista_usuarios.html'),
+
 
 
 # Quick-start development settings - unsuitable for production
